@@ -1,0 +1,476 @@
+/* HEADER*/
+.header {
+    padding-top: 15px;
+    padding-bottom: 55px;
+
+    background-color: #F9DADA;
+}
+.header a {
+    text-decoration: none;
+    color: #000000;
+}
+.header a:hover {
+    color: #000000;
+}
+
+.header h1 {
+    font-size: 40px;
+    font-family: Brygada 1918;
+    font-weight: 400;
+}
+.header img {
+    width: 30px;
+    padding: 5px;
+}
+.header h5 {
+    font-family: nunito;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.topnav {
+    overflow: hidden;
+    text-align: right;
+    color: black;
+    
+    padding-left: 0px;
+    padding-right: 10px;
+    margin-right: 0px;
+
+    padding-top: 15px;
+  }
+.topnav a {
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+  }
+.pencarian {
+    width: 750px;
+    margin: auto;
+    display: flex;  /* Mengatur tampilan elemen secara horizontal */
+    align-items: center;  /* Mengatur elemen secara vertikal */
+}
+.pencarian input {
+    width: 100%;
+    margin: auto;
+    padding-left: 45px;
+    
+    background-color: #F9DADA;
+    flex: 1;  /* Memperluas input pencarian untuk mengisi ruang yang tersedia */
+}
+
+.button-search {
+    margin-left: 0px;  /* Memberikan ruang antara input dan tombol */
+}
+/*TUTUP HEADER*/
+.hero-section {
+    background-color: #F9DADA;
+}
+.hero-desc {
+    background: linear-gradient(180deg, #EDEFED 0%, #E7FBF5 100%);
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+.hero-desc h4 {
+    color: #555454;
+    font-size: 40px;
+    font-family: NanumMyeongjo;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.hero-desc p {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-family: NanumMyeongjo;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*HERO SECTION*/
+
+/*TUTUP HERO SECTION*/
+
+/* BEST WEEKLY*/
+.main-title-section {
+    text-align: center;
+}
+.best-weekly {
+    padding-top: 95px;
+    padding-bottom: 25px;
+    
+    background-color: #F9DADA;
+}
+.best-weekly p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 22px;
+
+    padding-top: 5px;
+}
+.best-weekly h4 {
+    font-family: nunito;
+    font-weight: 500;
+    font-size: 32px;
+
+    margin-bottom: 44px;
+}
+.best-weekly img {
+    width: 100%;
+}
+.best-weekly a {
+    text-decoration: none;
+    color: black;
+}
+.see-more {
+    text-align: right;
+    margin-top: 47px;
+}
+/*TUTUP BEST WEEKLY*/
+
+/* NEW ARRIVALS*/
+.new-arrival {
+    padding-top: 95px;
+    padding-bottom: 25px;
+
+    background: linear-gradient(180deg, #D6F0DA 0%, rgba(183, 203, 217, 0.00) 52.60%);
+
+}
+.new-arrival a {
+    text-decoration: none;
+    color: black;
+}
+.new-arrival h4 {
+    font-family: nunito;
+    font-weight: 500;
+    font-size: 32px;
+
+    margin-bottom: 44px;
+}
+.new-arrival img {
+    width: 100%;
+}
+.new-arrival h5 {
+    font-family: alata;
+    font-weight: 400;
+    font-size: 18px;
+
+    text-align: center;
+}
+
+.new-arrival h6 {
+    font-family: alata;
+    font-weight: 400;
+    font-size: 18px;
+
+    color: #FD0000;
+
+    text-align: center;
+}
+.new-arrival p {
+    font-family: alata;
+    font-weight: 400;
+    font-size: 16px;
+
+    padding: 15px;
+
+    color: #707070;
+}
+.frame-card {
+    border: 1px solid black;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.frame-card:hover {
+    box-shadow: 0 0px 8px 0 rgba(97, 219, 60, 0.2), 0 4px 10px 0 rgba(43, 250, 54, 0.705);
+}
+.desc-frame-card {
+    background-color: #F5D0BE;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+/*TUTUP NEW ARRIVALS*/
+
+/*  BANNER*/
+.mid-banner {
+    padding-top: 95px;
+    padding-bottom: 250px;
+
+    background: linear-gradient(180deg, rgba(183, 203, 217, 0.00) 52.60% , #BEF5EF 100%);
+}
+.mid-banner img {
+    width: 100%;
+    height: auto;
+    padding-bottom: 7px;
+}
+.mid-banner h4 {
+    font-family: nunito;
+    font-weight: 500;
+    font-size: 32px;
+
+    margin-bottom: 44px;
+}
+.desc-banner {
+    text-align: center;
+    padding-top: 105px;
+
+    font-size: 40px;
+    font-family: Brygada 1918;
+    font-weight: 400;
+}
+.desc-banner img {
+    width: 65%;
+}
+.desc-banner button {
+    font-size: 22px;
+    border-radius: 15px;
+    background-color: #FCBB35;
+    border: #FCBB35 2px solid;
+
+    padding: 15px;
+}
+.desc-banner button:hover {
+    font-size: 22px;
+
+    background-color: #ffffff;
+    border: 2px solid #FCBB35;
+}
+.button-read-story {
+    margin: auto;
+}
+/*TUTUP  BANNER*/
+
+/*  FOOTER*/
+.footer {
+    background-color: #9AB5C8;
+    padding-top: 41px;
+    color: #2E2E35;
+}
+.footer h4 {
+    font-family: mukta;
+    font-size: 40px;
+    text-align: left;
+}
+.footer img {
+    width: 10%;
+}
+.footer button {
+    width: 20%;
+    height: 30px;
+    position: relative;
+    left: -5px;
+
+    background-color: #FF8686;
+    border: 1px black solid;
+}
+.footer h5 {
+    font-family: nunito;
+    font-size: 18px;
+    font-weight: 300;
+    font-weight: bold;
+}
+.footer p {
+    font-family: nunito;
+    font-size: 16px;
+    font-weight: 300;
+}
+.footer-2 {
+    background-color: #2E2E35;
+    
+}
+.copyright {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: nunito;
+    font-size: 15px;
+    font-weight: 200;
+
+    text-align: center;
+    color: #ffffff;
+}
+.desc-footer {
+    text-align: right;
+}
+.desc-footer h5 {
+    font-size: 26px;
+}
+.desc-footer h6 {
+    font-size: 20px;
+}
+/*TUTUP  FOOTER*/
+
+.page-booking {
+    background-color: #F9DADA;
+}
+.booking {
+    padding-top: 45px;
+    background: linear-gradient(180deg, #F2E8E6 0%, #FCF3CF 45.84%, #E0E0E0 79.69%, #BEF5EF 100%);
+    margin-bottom: -10px;
+    padding-bottom: 35px;
+}
+.gambar-booking {
+    padding: 25px;
+    border: 1px solid #000000;
+}
+.gambar-booking img {
+    width: 100%;
+}
+.color-pilihan .warna {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+.color-pilihan .warna img {
+    width: 100%;
+}
+.color-pilihan a {
+    text-decoration: none;
+    color: black;
+}
+.booking select {
+    width: 100%;
+    padding: 10px;
+    height: 45px;
+}
+.button-add-to-bag button {
+    background: #9AB5C8;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+
+    height: 45px;
+    border: none;
+}
+.button-cancel-add-to-bag button {
+    background: #F5D0BE;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+
+    height: 45px;
+    border: none;
+}
+.booking p {
+    font-size: 20px;
+}
+.booking h5 {
+    font-size: 26px;
+}
+.booking .gambar-bag img {
+    width: 100%;
+}
+.gambar-bag {
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.desk-bag {
+    padding: 30px;
+}
+.desk-bag h4 {
+    font-size: 30px;
+}
+.desk-bag h6 {
+    font-size: 26px;
+}
+.desk-bag i {
+    font-size: 25px;
+    padding: 20px;
+}
+.desk-bag a {
+    color: #000;
+    text-decoration: none;
+}
+.guest-checkout-button {
+    text-align: center;
+}
+.member-checkout-button {
+    text-align: center;
+}
+.guest-checkout-button button {
+    background: #9AB5C8;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+
+    height: 45px;
+    border: none;
+}
+.member-checkout-button button {
+    background: #F5D0BE;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+
+    height: 45px;
+    border: none;
+}
+.gambar-order-info {
+    padding: 20px;
+    border: 1px solid #000000;
+}
+.gambar-order-info img {
+    width: 100%;
+}
+.frame-order-info {
+    padding:10px;
+    border: 1px solid #000000;
+}
+.frame-order-info a {
+    text-decoration: none;
+    color: #000000;
+}
+.order-info-form input{
+    width: 100%;
+    height: 45px;
+    background-color: transparent;
+
+    padding: 15px;
+    margin-bottom: 15px;
+}
+.aggrement {
+    display: inline-flex;
+}
+.aggrement p {
+    font-size: 15px;
+    padding-left: 15px;
+}
+.aggrement input {
+    position: relative;
+    top: 5px;
+}
+.button-comfirm-payment button {
+    background: #9AB5C8;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+
+    height: 45px;
+    border: none;
+}
+.button-cancel-payment button {
+    background: #F5D0BE;
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+
+    height: 45px;
+    border: none;
+}
+.frame-order-success {
+    padding: 50px;
+    border: 1px solid #000000;
+    
+    text-align: center;
+}
+.button-check-order {text-align: center;}
+.button-check-order button {
+    background: #F5D0BE;
+    text-align: center;
+    width: 60%;
+
+    height: 45px;
+    border: none;
+
+    margin: auto;
+}
